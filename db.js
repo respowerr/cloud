@@ -1,12 +1,17 @@
+const db_host = require('bin/www');
+const db_name = require('bin/www');
+const db_user = require('bin/www');
+const db_pass = require('bin/www');
+
 const { Sequelize } = require('sequelize')
 
 // database
 const sequelize = new Sequelize(
-  '', // Database name
-  '', // User
-  '', // Password
+  db_name, // Database name
+  db_user, // User
+  db_pass, // Password
   {
-    host: 'postgres://postgres_gpdx_user:hXe2jmcterwa2UKDpzuRP3mA3NTb0wSD@dpg-cneqqk0l5elc73dcqmug-a/postgres_gpdx', // Host
+    host: db_host, // Host
     dialect: 'postgres',
     dialectOptions: {
       ssl: {

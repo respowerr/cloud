@@ -6,7 +6,7 @@ const sequelize = new Sequelize(
   '', // User
   '', // Password
   {
-    host: '', // Host
+    host: 'postgres://postgres_gpdx_user:hXe2jmcterwa2UKDpzuRP3mA3NTb0wSD@dpg-cneqqk0l5elc73dcqmug-a.frankfurt-postgres.render.com/postgres_gpdx', // Host
     dialect: 'postgres',
     dialectOptions: {
       ssl: {

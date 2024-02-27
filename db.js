@@ -1,8 +1,3 @@
-const db_host = require('bin/www');
-const db_name = require('bin/www');
-const db_user = require('bin/www');
-const db_pass = require('bin/www');
-
 const { Sequelize } = require('sequelize')
 
 // database

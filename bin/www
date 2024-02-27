@@ -15,11 +15,6 @@ const http = require('http');
 const port = normalizePort(process.env.PORT || '3000');
 app.set('port', port);
 
-const db_host = "dpg-cneqqk0l5elc73dcqmug-a";
-const db_user = "postgres_gpdx_user";
-const db_name = "postgres_gpdx"
-const db_pass = "hXe2jmcterwa2UKDpzuRP3mA3NTb0wSD";
-
 /**
  * Create HTTP server.
  */
